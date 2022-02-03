@@ -1,0 +1,20 @@
+{
+    "name": "jfr/exo_2",
+    "autoload": {
+        "psr-4": {
+            "Exo2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jfr",
+            "email": "jfrsimbare@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.0"
+    }
+}

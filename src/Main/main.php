@@ -1,8 +1,10 @@
 <?php
-require_once 'ToDo.php';
-require_once 'ToDoList.php';
+require '../../vendor/autoload.php';
 
-$list = new TodoList();
+use Exo2\ToDo\ToDoList;
+use Exo2\ToDo\ToDo;
+
+$list = new ToDoList();
 $list
     ->addTodo(new Todo ('Homework titre', '12-12-2021'))
     ->addTodo(new Todo ('Sport', '12-02-2022'))
@@ -14,4 +16,4 @@ $list
 
 $searchedTodos = $list->search('2022');
 
-var_dump($searchedTodos);
+dump($searchedTodos);

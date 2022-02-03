@@ -1,7 +1,8 @@
 <?php
-require_once 'ToDo.php';
 
-class TodoList
+namespace Exo2\ToDo;
+
+class ToDoList
 {
     public array $todos = [];
 
